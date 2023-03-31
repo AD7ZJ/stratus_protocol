@@ -57,3 +57,4 @@ The Stratus PRX V2 seems to output UDP packets on the following ports:
 ```
 0000   8d ad 53 95 f8 23 00 03 00 4a b8 00
 ```
+Seems to always begin with 8d. Bytes 1 2 and 3 appear to be the ICAO hex address of an aircraft being tracked (in this case AD5395). 
